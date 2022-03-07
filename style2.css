@@ -1,0 +1,46 @@
+.container{
+    display: block;
+    margin: 30px;
+    cursor: pointer;
+}
+h1{
+    text-align: center;
+    color: blue;
+    cursor: pointer;
+}
+.box1{
+    width: 300px;
+    height: 200px;
+    background-color: green;
+    border-left: 5px black solid;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1px;
+  
+    
+}
+.line{
+    max-width: 5px;
+    height: 200px;
+    background-color: black;
+    
+}
+.box2 {
+    background-color: brown;
+    width: 64px;
+    height: 40px;
+    margin-left: -28px;
+    border-radius: 3px;
+}
+.red-box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    display: block;
+    
+    
+}
